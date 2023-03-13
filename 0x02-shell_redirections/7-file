@@ -1,2 +1,2 @@
 #!/bin/bash
-TEXT="Best School" | echo $TEXT > "\*\\'$TEXT\'\\*$\?\*\*\*\*\*:)"
+TEXT="Best School"  TEXT=\"${TEXT}\" | echo $TEXT > "\*\\'$TEXT\'\\*$\?\*\*\*\*\*:)"
