@@ -1,0 +1,2 @@
+#!/bin/bash
+TEXT="Best School"; echo $TEXT > "\*\\'$TEXT\'\\*$\?\*\*\*\*\*:)"
