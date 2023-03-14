@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -c list |sort|  grep '^1'
+sort list | uniq -u
