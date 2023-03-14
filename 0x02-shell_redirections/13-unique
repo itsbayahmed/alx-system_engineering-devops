@@ -1,2 +1,2 @@
 #!/bin/bash
-cat list | uniq -c | grep '^1'
+uniq -c list | grep '^1'
